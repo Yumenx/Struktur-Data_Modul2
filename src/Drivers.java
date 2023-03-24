@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class Main {
+public class Drivers {
         public static void main(String[] args) {
             LinkedList<String> Animal = new LinkedList<>();
             Animal.add("Sapi");
