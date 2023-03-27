@@ -40,10 +40,7 @@ public class Drivers {
         }
 
         System.out.println();
-        int v = animal.indexOf("Bebek");
-        int a = animal.lastIndexOf("Bebek");
-
-        System.out.println("Posisi Index : " +v + "," +a);
+        System.out.println("Posisi Index : " +animal.indexOf("Bebek") + "," +animal.lastIndexOf("Bebek"));
 
         //Step 3
         animal.remove(1);
