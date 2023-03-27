@@ -2,25 +2,26 @@ package Task1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
-
 
 public class Drivers {
     public static void main(String[] args) {
         ArrayList<String> animal = new ArrayList<>();
 
+        //Step 1
         animal.add("Angsa");
         animal.add("Bebek");
         animal.add("Cicak");
         animal.add("Domba");
         animal.add("Elang");
         animal.add("Gajah");
+        System.out.println("Output");
+        System.out.print(animal);
+        System.out.println();
+
+        //Step 2
         animal.add("Badak");
         animal.add("Bebek");
-
-        //Step 1 and 2
-        System.out.println("Output");
+        System.out.println("\nOutput");
         System.out.print(animal);
         System.out.println();
 
