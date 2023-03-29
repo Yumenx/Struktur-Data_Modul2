@@ -1,6 +1,5 @@
 package Task2;
 
-
 public class Drivers {
     public static void main(String[] args) {
         LinkedList myList = new LinkedList();

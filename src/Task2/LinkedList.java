@@ -1,5 +1,5 @@
-
 package Task2;
+
 class Node {
     int data;
     Node next;
